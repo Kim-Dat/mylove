@@ -80,6 +80,8 @@ showText("desc", 50, () => {
 });
 
 function oke() {
+    let audio = document.getElementById("myAudio");
+    audio.play();
     const ok = document.querySelector(".fulfilled");
     const box = document.querySelector(".box");
     ok.style.display = "block";

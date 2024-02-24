@@ -47,14 +47,14 @@ body {
     }
 }
 
+.box {
+    max-width: 700px;
+    padding: 10px;
+}
 .main {
     display: flex;
     align-items: center;
     justify-content: center;
-}
-.box {
-    width: 600px;
-    padding: 10px;
 }
 #title {
     font-size: 50px;
@@ -71,6 +71,13 @@ body {
     color: #000;
     text-indent: 1em;
 }
+#desc1 {
+    font-size: 22px;
+    text-align: justify;
+    padding: 10px;
+    color: #000;
+    text-indent: 1em;
+}
 
 /* custom */
 
@@ -79,11 +86,11 @@ button {
     --border-width: 4px;
     appearance: none;
     position: relative;
-    padding: 0.5em 1em;
+    padding: 0.3em 0.8em;
     border: 0;
     background-color: transparent;
     font-family: "Roboto", Arial, "Segoe UI", sans-serif;
-    font-size: 15px;
+    font-size: 20px;
     font-weight: 500;
     margin-right: 10px;
     z-index: 2;
@@ -511,7 +518,7 @@ button:active {
 
 .back-window .curtain {
     position: relative;
-    width: 90%;
+    width: 100%;
     margin-left: 5%;
     font-size: 0;
     z-index: 2;
@@ -784,7 +791,7 @@ button:active {
 
 .front-window .curtain {
     position: relative;
-    width: 90%;
+    width: 100%;
     margin-left: 6%;
     font-size: 0;
     z-index: 2;
